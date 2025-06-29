@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+#messages li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+form {
+  display: flex;
+}
+
+#message-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
